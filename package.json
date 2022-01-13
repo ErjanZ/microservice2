@@ -2,7 +2,7 @@
   "name": "microservice2",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,12 +11,21 @@
     "url": "git+https://github.com/ErjanZ/microservice2.git"
   },
   "keywords": [
-    "m2"
+    "12345"
   ],
   "author": "Erjan",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ErjanZ/microservice2/issues"
   },
-  "homepage": "https://github.com/ErjanZ/microservice2#readme"
+  "homepage": "https://github.com/ErjanZ/microservice2#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "jasmine-node": "^3.0.0",
+    "nodemon": "^2.0.15"
+  }
 }
