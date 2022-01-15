@@ -11,5 +11,5 @@ exports.users = (req,res) => {
             "name":"Djon"
         }
     ]
-    response.status(users, res)
+    response.status(users, гres)
 }
